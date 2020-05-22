@@ -43,3 +43,5 @@ def segmentacao_limiar():
                     arq2.write(str(resultado_ssim)) 
             amostra += 1
     return amostra
+cv2.waitKey(0)
+cv2.destroyAllWindows()
